@@ -1,0 +1,38 @@
+{
+  "name": "typescript-playground-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram chatbot to interact with TypeScript Playground",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsnd src/index.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "author": "Roz <roz@rjmunhoz.me>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@types/prettier": "^2.6.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "pino-pretty": "^8.1.0",
+    "prettier": "^2.7.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@grammyjs/parse-mode": "^1.3.1",
+    "canvas": "^2.9.3",
+    "dotenv": "^16.0.1",
+    "fastify": "^4.2.1",
+    "grammy": "^1.9.2",
+    "lz-ts": "^1.1.2",
+    "shiki": "^0.10.1",
+    "shiki-renderer-canvas": "^1.1.0"
+  }
+}
